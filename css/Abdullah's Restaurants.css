@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    padding: 15px
+}
+
+body {
+    font-family: 'Bahnschrift';
+    background-color: #d7f7fc;
+    font-size: 16px;
+}
+
+.section {
+    background-color: rgb(161, 161, 161);
+    border: 2px solid #000000;
+    margin: 15px;
+    padding: 5px;
+    text-align: justify;
+    position: relative;
+}
+
+span {
+	font-size: 16px;
+	width: 150px;
+	border: 2px solid #000000;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+    position: absolute;
+    top :0;
+    right: 0;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+}
+
+.chicken, .BBQ, .Meat {
+    color: #000000
+}
+
+.chicken {
+    background-color: #86f78f;
+}
+
+.BBQ {
+    background-color: #ff3030;
+}
+
+.Meat {
+    background-color: #f2f083;
+}
+
+.row {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-1 {
+        width: 33.32%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-2 {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .sx {
+        width: 100%;
+        float: left;
+    }
